@@ -21,3 +21,6 @@ target_compile_definitions(
     DATA_PATH="${PROJECT_SOURCE_DIR}/data/"
 )
 target_link_libraries(7_complete_flow PUBLIC Fields2Cover)
+
+add_executable(8_rtt_lot_with_obstacle 8_rtt_lot_with_obstacle.cpp)
+target_link_libraries(8_rtt_lot_with_obstacle PUBLIC Fields2Cover)
